@@ -71,10 +71,11 @@ class App:
 
         botoes = ft.Row(
             controls=[
-                # btn_atu := ft.FilledButton(
-                #     expand=True,
-                #     text='Atualizar'
-                # ),
+                btn_atu := ft.FilledButton(
+                    expand=True,
+                    text='Atualizar',
+                    on_click=self.atualizar
+                ),
                 self.btn_add
             ]
         )
